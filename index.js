@@ -6,9 +6,13 @@ function findMatching(drivers,string){
 }
 
 function fuzzyMatch(drivers,string){
+<<<<<<< HEAD
 
   return drivers.filter(function (driver){return driver.substring(0,string.length) == string})
 
+=======
+  return drivers.filter(function (driver){return driver.substring(0,string.length) == string}) 
+>>>>>>> 8971b65c50520ee0e3bc7b06809659b92c3e8e06
   //  return driver.charAt(0) == string.charAt(0) && driver.charAt(1) == string.charAt(1) })
 }
 
